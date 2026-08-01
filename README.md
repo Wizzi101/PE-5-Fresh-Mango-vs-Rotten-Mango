@@ -176,6 +176,15 @@ Open:
 Fresh_Mango_vs_rotten_mango.ipynb
 ```
 
+streamlit deployment:
+
+```
+pip install streamlit
+```
+```
+streamlit run app.py
+```
+
 Run every cell sequentially.
 
 The notebook will:
