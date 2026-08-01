@@ -59,7 +59,7 @@ def preprocess_image(image):
 # -----------------------------
 uploaded_file = st.file_uploader(
     "Choose a mango image",
-    type=["jpg", "jpeg", "png"]
+    type=["jpg", "jpeg", "png","webp"]
 )
 
 if uploaded_file is not None:
