@@ -29,8 +29,8 @@ model = load_model()
 # -----------------------------
 # Parameters
 # -----------------------------
-IMG_HEIGHT = 224
-IMG_WIDTH = 224
+IMG_HEIGHT = 160
+IMG_WIDTH = 160
 
 CLASS_NAMES = [
     "Fresh",
