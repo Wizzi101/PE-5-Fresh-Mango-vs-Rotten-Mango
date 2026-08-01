@@ -22,7 +22,7 @@ st.write(
 # -----------------------------
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("model/custom_cnn_best_model.keras")
+    return tf.keras.models.load_model("model/custom_cnn_best.keras")
 
 model = load_model()
 
