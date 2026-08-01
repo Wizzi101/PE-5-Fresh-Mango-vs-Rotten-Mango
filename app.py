@@ -41,16 +41,10 @@ CLASS_NAMES = [
 # Image Preprocessing
 # -----------------------------
 def preprocess_image(image):
-
     image = image.convert("RGB")
     image = image.resize((IMG_WIDTH, IMG_HEIGHT))
-
-    img_array = np.array(image)
-
-    img_array = img_array.astype("float32") / 255.0
-
+    img_array = np.array(image).astype("float32")   # no /255.0
     img_array = np.expand_dims(img_array, axis=0)
-
     return img_array
 
 
