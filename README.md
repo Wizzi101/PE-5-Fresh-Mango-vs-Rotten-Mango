@@ -7,6 +7,8 @@
 ## 23/EG/PE/024
 ## 22/EG/PE/1474
 ## 22/EG/PE/1524
+## 22/EG/PE/1494
+
 #  Fresh vs Rotten Mango Classification
 
 A deep learning project that classifies mangoes as **Fresh** or **Rotten** using a Convolutional Neural Network (CNN) built with TensorFlow/Keras. The notebook includes dataset preparation, data cleaning, duplicate image detection, data augmentation, model training, and evaluation.
